@@ -1,0 +1,33 @@
+.form {
+  border: 1px solid black;
+  border-radius: 5px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+.error {
+  color: red;
+  position: absolute;
+  bottom: 35px;
+  left: 0;
+  right: 0;
+}
+
+.input {
+  width: 300px;
+}
+.buttons {
+  margin-top: 30px;
+  max-width: 180px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+}

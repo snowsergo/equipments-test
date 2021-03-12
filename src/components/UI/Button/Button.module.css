@@ -1,0 +1,38 @@
+.button {
+  cursor: pointer;
+  width: fit-content;
+  padding: 8px;
+  color: #fff;
+  border: none;
+  background: #4372f3;
+}
+.button:hover {
+  background: #3557b8;
+}
+
+.button:active {
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.6);
+  outline: none;
+}
+
+.success {
+  background: #00c721;
+}
+
+.success:hover {
+  background: #019e1b;
+}
+
+.cancel {
+  background: rgb(255, 21, 21);
+}
+
+.cancel:hover {
+  background: rgb(194, 15, 15);
+}
+
+.button:disabled {
+  background: #ccc;
+  color: #000;
+  cursor: not-allowed;
+}

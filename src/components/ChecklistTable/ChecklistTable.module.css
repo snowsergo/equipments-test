@@ -1,0 +1,50 @@
+.head {
+  display: grid;
+  border: 1px solid black;
+  grid-template-columns: 1fr 1fr 1fr;
+  background: rgb(121, 121, 121);
+  color: white;
+  font-weight: bold;
+  padding: 4px 10px;
+}
+
+.head__text {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-bottom: 1px solid rgb(216, 216, 216);
+  align-items: center;
+  padding: 4px 10px;
+}
+.item:hover {
+  background: rgb(216, 216, 216);
+}
+
+.item__text {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.buttons {
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 190px;
+}
+
+.success {
+  text-align: left;
+  color: #00c721;
+}
+
+.cancel {
+  text-align: left;
+  color: rgb(255, 21, 21);
+}

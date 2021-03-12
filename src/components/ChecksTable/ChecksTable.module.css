@@ -1,0 +1,47 @@
+.title {
+  margin: 0;
+  padding: 0;
+  margin: 10px 0;
+}
+.head {
+  display: grid;
+  border: 1px solid black;
+  grid-template-columns: 1fr 1fr 1fr;
+  background: rgb(121, 121, 121);
+  color: white;
+  font-weight: bold;
+  padding: 4px 10px;
+}
+
+.head__text {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 4px 10px;
+}
+
+.item__text {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.item__good {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 4px 10px;
+  border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+.item__bad {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 4px 10px;
+  background: rgb(250, 139, 139);
+  border-bottom: 1px solid rgb(216, 216, 216);
+}
